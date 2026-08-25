@@ -1,0 +1,1143 @@
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+# Gait Params for limit (已修正：低高度、中等速度)
+
+# Step 1: 对应 DEF 中的 RL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.00, 0.02] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 2: 对应 DEF 中的 FR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.0]
+mu = 0.80
+step_height = [0.02, 0.00, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 3: 对应 DEF 中的 RR 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.00, 0.02, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+
+# Step 4: 对应 DEF 中的 FL 腿摆动
+[[step]]
+body_pos_des = [0.0, 0.0, 0.0, 0.0, 0.0, -0.08]
+body_vel_des = [0.1, 0.0, 0.0]
+type = "usergait"
+duration = 120 # 速度恢复到中等
+gait_id = 110
+landing_gain = 1.0
+landing_pos_des = [0.00, 0.00, 0.00, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+mu = 0.80
+step_height = [0.00, 0.02, 0.00, 0.00] # 保持低高度
+use_mpc_traj = 0
+weight = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
