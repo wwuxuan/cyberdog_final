@@ -4,7 +4,7 @@
 
 ## 赛段逻辑
 
-1. 第一赛段：右鱼眼测量黄线，控制出球位置。
+1. 第一赛段：以高抬腿行走通过石板；到转弯点前后分别用右鱼眼校准右黄线距离并重写定位，再转向进入第二赛段。
 2. 第二赛段：雷达、橙蓝球视觉和坐标规划结合，依次完成撞球路径。
 3. 第三赛段：按曲线路径行走，鱼眼持续校正黄线距离。
 4. 第四赛段：依次通过三个通道；YOLO 识别限高杆、不可跨越障碍、可乐瓶、足球和橙球，触发播报、低姿、绕行或撞球。
@@ -19,19 +19,6 @@
 - Python 3.6、`rclpy`、`numpy`、`opencv-python`、LCM Python 模块。
 - 相机节点已启动，且机器狗具有 `/params/camera/calibration` 标定目录。
 - 已部署本仓库 `locomotion/` 编译得到的匹配运控程序；第四、六赛段的低姿和姿态控制依赖它。
-
-### 部署
-
-将 `dog/` 的内容复制到机器狗的 `/home/mi/cyberdog_competition/`。第四赛段的推流和语音脚本还必须复制到固定目录：
-
-```bash
-scp -r dog/* mi@<DOG_IP>:/home/mi/cyberdog_competition/
-ssh mi@<DOG_IP> 'mkdir -p /home/mi/stage4/vision'
-scp dog/support/stage4_vision/*.py mi@<DOG_IP>:/home/mi/stage4/vision/
-ssh mi@<DOG_IP> 'chmod +x /home/mi/cyberdog_competition/support/stop_motion_manager.sh'
-```
-
-首次覆盖前请备份机器狗原目录与当前可用的运控文件。
 
 ### 运行
 
@@ -111,7 +98,7 @@ python .\stage6_yolo.py --port 9892 --push-ip <DOG_IP>
 
 ## 运控编译与部署
 
-`locomotion/` 是比赛使用的运控源码。若你已有原始 `locomotion` 仓库，应以原仓库为基础，合并本包中对应的源码改动后再编译，不要复制任何旧的 `onboard-build/` 生成目录。
+`locomotion/` 是比赛使用的运控源码。
 
 比赛相关的主要改动在：
 
@@ -154,5 +141,3 @@ scp -r onboard-build/control/user/cyberdog_control mi@<DOG_IP>:/home/mi/cyberdog
 scp -r onboard-build/hardware/ mi@<DOG_IP>:/home/mi/cyberdog_locomotion/onboard-build/
 scp -r onboard-build/robot-software/ mi@<DOG_IP>:/home/mi/cyberdog_locomotion/onboard-build/
 ```
-
-部署后先在空场验证站立、停止、低姿、抬腿和 roll，再进入赛道测试。
